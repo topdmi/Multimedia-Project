@@ -1,3 +1,3 @@
 # Multimedia-Project
 
-Applicazione algoritmi di dithering per le immagini digitali
+Application of dithering algorithms for digital images
