@@ -1,0 +1,9 @@
+Riferimento ----> https://github.com/kornelski/undither
+
+To convert a PNG24 8-bit/color RBG ------> in a PNG8 8-bit colormap
+
+pngquant -v -f --ext .png 256 name.png (single image)
+pngquant -v -f --ext .png 256 *.png (all PNG files in place overwriting them)
+
+To apply undithering algorithm
+cd /undithering/target/release ----> ./undither input.png output.png
